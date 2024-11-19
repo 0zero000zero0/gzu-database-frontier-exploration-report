@@ -1,107 +1,107 @@
 \begin{thebibliography}{10}
 
 \bibitem{ahmad2020missing}
-Iftikhar Ahmad, Muhammad~Usman Akhtar, Salma Noor, and Ambreen Shahnaz.
+{\sc Ahmad, I., Akhtar, M.~U., Noor, S., and Shahnaz, A.}
 \newblock Missing link prediction using common neighbor and centrality based parameterized algorithm.
-\newblock {\em Scientific reports}, 10(1):364, 2020.
-
-\bibitem{wang2022common}
-Rui Wang, Yongkun Li, Shuai Lin, WeiJie Wu, Hong Xie, Yinlong Xu, and John~CS Lui.
-\newblock Common neighbors matter: fast random walk sampling with common neighbor awareness.
-\newblock {\em IEEE Transactions on Knowledge and Data Engineering}, 35(5):4570--4584, 2022.
-
-\bibitem{tsitseklis2020scalable}
-Konstantinos Tsitseklis, Maria Krommyda, Vasileios Karyotis, Verena Kantere, and Symeon Papavassiliou.
-\newblock Scalable community detection for complex data graphs via hyperbolic network embedding and graph databases.
-\newblock {\em IEEE Transactions on Network Science and Engineering}, 8(2):1269--1282, 2020.
-
-\bibitem{beis2015benchmarking}
-Sotirios Beis, Symeon Papadopoulos, and Yiannis Kompatsiaris.
-\newblock Benchmarking graph databases on the problem of community detection.
-\newblock In {\em New Trends in Database and Information Systems II: Selected papers of the 18th East European Conference on Advances in Databases and Information Systems and Associated Satellite Events, ADBIS 2014 Ohrid, Macedonia, September 7-10, 2014 Proceedings II}, pages 3--14. Springer, 2015.
-
-\bibitem{mao2022financial}
-Xuting Mao, Hao Sun, Xiaoqian Zhu, and Jianping Li.
-\newblock Financial fraud detection using the related-party transaction knowledge graph.
-\newblock {\em Procedia Computer Science}, 199:733--740, 2022.
-
-\bibitem{cheng2020graph}
-Dawei Cheng, Xiaoyang Wang, Ying Zhang, and Liqing Zhang.
-\newblock Graph neural network for fraud detection via spatial-temporal attention.
-\newblock {\em IEEE Transactions on Knowledge and Data Engineering}, 34(8):3800--3813, 2020.
-
-\bibitem{li2022internet}
-Ranran Li, Zhaowei Liu, Yuanqing Ma, Dong Yang, and Shuaijie Sun.
-\newblock Internet financial fraud detection based on graph learning.
-\newblock {\em IEEE Transactions on Computational Social Systems}, 10(3):1394--1401, 2022.
-
-\bibitem{黄恒琪2019知识图谱研究综述}
-黄恒琪, 于娟, 廖晓, and 席运江.
-\newblock 知识图谱研究综述.
-\newblock {\em 计算机系统应用}, 28(6):1--12, 2019.
-
-\bibitem{dong2014knowledge}
-Xin Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Ni~Lao, Kevin Murphy, Thomas Strohmann, Shaohua Sun, and Wei Zhang.
-\newblock Knowledge vault: A web-scale approach to probabilistic knowledge fusion.
-\newblock In {\em Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining}, pages 601--610, 2014.
-
-\bibitem{徐增林2016知识图谱技术综述}
-徐增林, 盛泳潘, 贺丽荣, and 王雅芳.
-\newblock 知识图谱技术综述.
-\newblock {\em 电子科技大学学报}, 45(4):589--606, 2016.
-
-\bibitem{秦川2020基于知识图谱的推荐系统研究综述}
-秦川, 祝恒書, 莊福振, 郭慶宇, 張琦, 張樂, 王超, 陳恩紅, and 熊輝.
-\newblock 基于知识图谱的推荐系统研究综述.
-\newblock {\em 中国科学: 信息科学= Scientia Sinica Informationis}, page 937, 2020.
-
-\bibitem{刘佳玮2021基于异质信息网络的推荐系统研究综述}
-刘佳玮, 石川, 杨成, 菲利普, et~al.
-\newblock 基于异质信息网络的推荐系统研究综述.
-\newblock {\em 信息安全学报}, 6(5):1--16, 2021.
-
-\bibitem{fayyaz2020recommendation}
-Zeshan Fayyaz, Mahsa Ebrahimian, Dina Nawara, Ahmed Ibrahim, and Rasha Kashef.
-\newblock Recommendation systems: Algorithms, challenges, metrics, and business opportunities.
-\newblock {\em applied sciences}, 10(21):7748, 2020.
-
-\bibitem{wu2022graph}
-Shiwen Wu, Fei Sun, Wentao Zhang, Xu~Xie, and Bin Cui.
-\newblock Graph neural networks in recommender systems: a survey.
-\newblock {\em ACM Computing Surveys}, 55(5):1--37, 2022.
-
-\bibitem{赵俊逸2021协同过滤推荐系统综述}
-赵俊逸, 庄福振, 敖翔, 何清, 蒋慧琴, and 马岭.
-\newblock 协同过滤推荐系统综述.
-\newblock {\em Journal of Cyber Security 信息安全学报}, 6(5), 2021.
+\newblock {\em Scientific reports 10}, 1 (2020), 364.
 
 \bibitem{angles2018gcore}
-Renzo Angles, Marcelo Arenas, Pablo Barcel{\'o}, et~al.
+{\sc Angles, R., Arenas, M., Barcel{\'o}, P., et~al.}
 \newblock G-core: A core for future graph query languages.
-\newblock {\em Proceedings of the VLDB Endowment}, 2018.
+\newblock {\em Proceedings of the VLDB Endowment\/} (2018).
+
+\bibitem{beis2015benchmarking}
+{\sc Beis, S., Papadopoulos, S., and Kompatsiaris, Y.}
+\newblock Benchmarking graph databases on the problem of community detection.
+\newblock In {\em New Trends in Database and Information Systems II: Selected papers of the 18th East European Conference on Advances in Databases and Information Systems and Associated Satellite Events, ADBIS 2014 Ohrid, Macedonia, September 7-10, 2014 Proceedings II\/} (2015), Springer, pp.~3--14.
+
+\bibitem{cheng2020graph}
+{\sc Cheng, D., Wang, X., Zhang, Y., and Zhang, L.}
+\newblock Graph neural network for fraud detection via spatial-temporal attention.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering 34}, 8 (2020), 3800--3813.
+
+\bibitem{dong2014knowledge}
+{\sc Dong, X., Gabrilovich, E., Heitz, G., Horn, W., Lao, N., Murphy, K., Strohmann, T., Sun, S., and Zhang, W.}
+\newblock Knowledge vault: A web-scale approach to probabilistic knowledge fusion.
+\newblock In {\em Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining\/} (2014), pp.~601--610.
+
+\bibitem{fayyaz2020recommendation}
+{\sc Fayyaz, Z., Ebrahimian, M., Nawara, D., Ibrahim, A., and Kashef, R.}
+\newblock Recommendation systems: Algorithms, challenges, metrics, and business opportunities.
+\newblock {\em applied sciences 10}, 21 (2020), 7748.
 
 \bibitem{han2021multimodal}
-Jiawei Han et~al.
+{\sc Han, J., et~al.}
 \newblock Multimodal data integration for enhanced graph analytics.
-\newblock {\em IEEE Transactions on Knowledge and Data Engineering}, 2021.
-
-\bibitem{lewis2020rag}
-Patrick Lewis et~al.
-\newblock Retrieval-augmented generation for knowledge-intensive nlp tasks.
-\newblock {\em Advances in Neural Information Processing Systems}, 2020.
-
-\bibitem{wu2020gnn}
-Zonghan Wu et~al.
-\newblock A comprehensive survey on graph neural networks.
-\newblock {\em IEEE Transactions on Neural Networks and Learning Systems}, 2020.
-
-\bibitem{xu2021graphRAG}
-Ke~Xu et~al.
-\newblock Graph neural networks for natural language processing: A survey.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence}, 2021.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering\/} (2021).
 
 \bibitem{jiang2024reasoningenhancedhealthcarepredictionsknowledge}
-Pengcheng Jiang, Cao Xiao, Minhao Jiang, Parminder Bhatia, Taha Kass-Hout, Jimeng Sun, and Jiawei Han.
+{\sc Jiang, P., Xiao, C., Jiang, M., Bhatia, P., Kass-Hout, T., Sun, J., and Han, J.}
 \newblock Reasoning-enhanced healthcare predictions with knowledge graph community retrieval, 2024.
+
+\bibitem{lewis2020rag}
+{\sc Lewis, P., et~al.}
+\newblock Retrieval-augmented generation for knowledge-intensive nlp tasks.
+\newblock {\em Advances in Neural Information Processing Systems\/} (2020).
+
+\bibitem{li2022internet}
+{\sc Li, R., Liu, Z., Ma, Y., Yang, D., and Sun, S.}
+\newblock Internet financial fraud detection based on graph learning.
+\newblock {\em IEEE Transactions on Computational Social Systems 10}, 3 (2022), 1394--1401.
+
+\bibitem{mao2022financial}
+{\sc Mao, X., Sun, H., Zhu, X., and Li, J.}
+\newblock Financial fraud detection using the related-party transaction knowledge graph.
+\newblock {\em Procedia Computer Science 199\/} (2022), 733--740.
+
+\bibitem{tsitseklis2020scalable}
+{\sc Tsitseklis, K., Krommyda, M., Karyotis, V., Kantere, V., and Papavassiliou, S.}
+\newblock Scalable community detection for complex data graphs via hyperbolic network embedding and graph databases.
+\newblock {\em IEEE Transactions on Network Science and Engineering 8}, 2 (2020), 1269--1282.
+
+\bibitem{wang2022common}
+{\sc Wang, R., Li, Y., Lin, S., Wu, W., Xie, H., Xu, Y., and Lui, J.~C.}
+\newblock Common neighbors matter: fast random walk sampling with common neighbor awareness.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering 35}, 5 (2022), 4570--4584.
+
+\bibitem{wu2022graph}
+{\sc Wu, S., Sun, F., Zhang, W., Xie, X., and Cui, B.}
+\newblock Graph neural networks in recommender systems: a survey.
+\newblock {\em ACM Computing Surveys 55}, 5 (2022), 1--37.
+
+\bibitem{wu2020gnn}
+{\sc Wu, Z., et~al.}
+\newblock A comprehensive survey on graph neural networks.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems\/} (2020).
+
+\bibitem{xu2021graphRAG}
+{\sc Xu, K., et~al.}
+\newblock Graph neural networks for natural language processing: A survey.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence\/} (2021).
+
+\bibitem{刘佳玮2021基于异质信息网络的推荐系统研究综述}
+{\sc 刘佳玮, 石川, 杨成, 菲利普, et~al.}
+\newblock 基于异质信息网络的推荐系统研究综述.
+\newblock {\em 信息安全学报 6}, 5 (2021), 1--16.
+
+\bibitem{徐增林2016知识图谱技术综述}
+{\sc 徐增林, 盛泳潘, 贺丽荣, and 王雅芳}.
+\newblock 知识图谱技术综述.
+\newblock {\em 电子科技大学学报 45}, 4 (2016), 589--606.
+
+\bibitem{秦川2020基于知识图谱的推荐系统研究综述}
+{\sc 秦川, 祝恒書, 莊福振, 郭慶宇, 張琦, 張樂, 王超, 陳恩紅, and 熊輝}.
+\newblock 基于知识图谱的推荐系统研究综述.
+\newblock {\em 中国科学: 信息科学= Scientia Sinica Informationis\/} (2020), 937.
+
+\bibitem{赵俊逸2021协同过滤推荐系统综述}
+{\sc 赵俊逸, 庄福振, 敖翔, 何清, 蒋慧琴, and 马岭}.
+\newblock 协同过滤推荐系统综述.
+\newblock {\em Journal of Cyber Security 信息安全学报 6}, 5 (2021).
+
+\bibitem{黄恒琪2019知识图谱研究综述}
+{\sc 黄恒琪, 于娟, 廖晓, and 席运江}.
+\newblock 知识图谱研究综述.
+\newblock {\em 计算机系统应用 28}, 6 (2019), 1--12.
 
 \end{thebibliography}
