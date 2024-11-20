@@ -23,7 +23,7 @@
 图数据库主要有三种模型:
 
 \textbf{属性图模型:} 属性图模型是图数据库中最常见的模型, 如\cref{fig:property-graph}所示，其特点是节点和边都可以附带多个属性 (键值对) , 便于对复杂关系进行建模. 例如, 在社交网络中, 节点可以代表用户, 边可以代表好友关系, 而属性则可以存储用户的年龄或好友关系的建立时间. 属性图模型的优点是灵活且直观, 适合表示复杂的实体和关系, 查询效率高. 但其对于高度结构化的数据, 可能没有关系型数据库的存储和处理效率高.
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/9.png}
 	\caption{属性图模型}
@@ -38,8 +38,22 @@
 	\label{fig:rdf}
 \end{figure}
 
-\textbf{超图模型:} 超图是节点与一组节点之间关系的扩展, 适用于表示复杂多方关系的场景. 例如, 一个项目小组可以表示为一个超边, 连接多个节点 (即组内成员) . 超图模型的优点是能够更加方便地表示多对多的关系, 适合描述复杂的群体交互场景；但其实现复杂度较高, 查询操作也可能比其他图模型更加复杂, 导致查询效率受到影响.
-
+\textbf{超图模型:} 超图是节点与一组节点之间关系的扩展, 适用于表示复杂多方关系的场景. 例如, 如\cref{fig:hypergraph1}所示，在房产证上张三与李四共同拥有三套房，在超图中就只需一条超边（拥有）就能表示出来。 但现实中，仅仅一条超边来表示拥有关系，可能会隐藏很多细节，例如房产证中每套房张三、李四各自占有的比率，因此，如果用属性图来表示将更为丰富，只是将一条超边转化, 为6条属性图中的关系，如\cref{fig:hypergraph2}所示。超图模型的优点是能够更加方便地表示多对多的关系, 适合描述复杂的群体交互场景；但其实现复杂度较高, 查询操作也可能比其他图模型更加复杂, 导致查询效率受到影响.
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{images/16.png}
+		\label{fig:hypergraph1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{images/17.png}
+		\label{fig:hypergraph2}
+	\end{subfigure}
+	\caption{超图模型}
+	\label{fig:hypergraph}
+\end{figure}
 
 
 \vspace{1cm}
@@ -67,3 +81,4 @@
 \textbf{查询效率:} 在涉及深度关联的查询中, 关系型数据库需要通过多次JOIN操作进行表的关联, 查询的复杂度和时间消耗迅速增加. 而图数据库则可以通过图遍历的方式, 直接在节点和边之间进行跳转, 大幅提高查询效率.
 
 \textbf{灵活性:} 图数据库具有灵活的数据模式, 支持在不影响现有数据的情况下对数据模型进行扩展. 这种灵活性使得图数据库在面对动态变化的数据结构时, 能够更轻松地进行更新和维护.
+\clearpage % 确保清理所有浮动内容

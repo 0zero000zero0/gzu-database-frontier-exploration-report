@@ -77,6 +77,7 @@
 \RequirePackage{todo} % 插入任务列表，方便文档编写过程中添加注释
 \RequirePackage{fontawesome} % 使用 FontAwesome 字体图标
 
+\RequirePackage{placeins} % 加载用于清理浮动内容的宏包
 
 
 \lstset{
@@ -129,6 +130,8 @@
 \Crefname{item}{项}{项}
 \crefname{figure}{图}{图}
 \Crefname{figure}{图}{图}
+\crefname{subfigure}{图}{图}
+\Crefname{subfigure}{图}{图}
 \crefname{table}{表}{表}
 \Crefname{table}{表}{表}
 \crefname{part}{篇}{篇}
@@ -185,16 +188,19 @@
 
 %%页眉设置
 \pagestyle{fancy}
-\fancyhead[L]{\fangsong 页眉左}%%留空则不显示
-\fancyhead[C]{\fangsong 页眉中}%%留空则不显示
-\fancyhead[R]{\fangsong 页眉右}%%留空则不显示
+\fancyhead[L]{\fangsong 贵州大学}%%留空则不显示
+\fancyhead[C]{\fangsong 图数据库报告}%%留空则不显示
+\fancyhead[R]{\fangsong 张丁文}%%留空则不显示
 
 %封面页设置
 {
-    \title{ \vspace{2cm} \heiti \Huge \textbf{{图数据库}} \par
+    \title{
+        \vspace{2cm}
+        \heiti \Huge \textbf{{图数据库}}
+        \par
         % \vspace{1cm}
         % \heiti \Large {\underline{副标题}}
-        % \vspace{3cm}
+        \vspace{3cm}
         }%标题
     \author{
         \vspace{0.5cm}
