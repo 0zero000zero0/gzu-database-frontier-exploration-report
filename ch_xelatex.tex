@@ -1,6 +1,6 @@
 % 字符编码和语言设置
 \usepackage[utf8]{inputenc} % 设置输入文件编码为UTF-8
-\usepackage[british,UKenglish]{babel} % 设置文档语言为英国英语，提供拼写检查和断行规则
+% \usepackage[british,UKenglish]{babel} % 设置文档语言为英国英语，提供拼写检查和断行规则
 \usepackage{fontenc} % 设置输出编码，通常与 inputenc 配合使用
 % 数学公式和符号
 \usepackage{amsmath} % 提供数学公式和符号的增强功能
@@ -20,10 +20,7 @@
 \usepackage{lmodern} % 使用现代的拉丁字体，提升排版效果
 \usepackage{sectsty} % 自定义章节标题的字体样式
 \usepackage{xcolor} % 支持颜色的设置，包括文字和表格颜色
-% 引用和参考文献
-\usepackage{cite} % 简化文献引用并避免重复引用
-\usepackage{hyperref} % 为文档提供超链接功能，包括跳转、书签和目录链接
-\usepackage{cleveref} % 增强引用功能，自动管理交叉引用
+
 % 页面布局和样式
 \usepackage{geometry} % 用于自定义页面边距和纸张大小
 \usepackage{fancyhdr} % 自定义页眉和页脚
@@ -43,7 +40,10 @@
 \usepackage{enumitem} % 自定义项目符号和编号列表
 \usepackage{multirow} % 用于在表格中创建跨行单元格
 \usepackage{placeins} % 加载用于清理浮动内容的宏包
-
+% 引用和参考文献
+\usepackage{cite} % 简化文献引用并避免重复引用
+\usepackage{hyperref} % 为文档提供超链接功能，包括跳转、书签和目录链接
+\usepackage{cleveref} % 增强引用功能，自动管理交叉引用
 
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \hypersetup{colorlinks=true, linkcolor=blue}

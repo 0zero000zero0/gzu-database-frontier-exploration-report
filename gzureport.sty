@@ -15,7 +15,6 @@
 
 % 字符编码和语言设置
 \RequirePackage[utf8]{inputenc} % 设置输入文件编码为UTF-8
-\RequirePackage[british,UKenglish]{babel} % 设置文档语言为英国英语，提供拼写检查和断行规则
 \RequirePackage[T1]{fontenc} % 设置输出编码，通常与 inputenc 配合使用
 \RequirePackage{fontspec} % 支持字体设置
 
@@ -101,8 +100,8 @@
 
 
 %% 更改摘要和目录二字的样式
-\renewcommand{\abstractname}{\textbf{\large {摘\quad 要}}}
 \renewcommand{\contentsname}{\textbf{\large {目\quad 录}}}
+\renewcommand{\abstractname}{\textbf{\large {摘\quad 要}}}
 
 
 
@@ -203,9 +202,9 @@
         }%标题
     \author{
         \vspace{0.5cm}
-        \kaishu\Large 姓名\ \dlmu[9cm]{张丁文} \qquad \\ %姓名
+        \kaishu\Large 姓名\ \dlmu[9cm]{张丁文,朱圣熠,陈宇} \qquad \\ %姓名
         \vspace{0.5cm}
-        \kaishu\Large  学号\ \dlmu[9cm]{2200170271} \qquad  \\ %学号
+        \kaishu\Large  学号\ \dlmu[9cm]{2200170271,,2200170176} \qquad  \\ %学号
         \vspace{0.5cm}
         \kaishu\Large  教师\ \dlmu[9cm]{马丹} \qquad  \\ %教师
         \vspace{0.5cm}

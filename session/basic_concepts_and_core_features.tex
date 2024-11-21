@@ -38,17 +38,19 @@
 	\label{fig:rdf}
 \end{figure}
 
-\textbf{超图模型:} 超图是节点与一组节点之间关系的扩展, 适用于表示复杂多方关系的场景. 例如, 如\cref{fig:hypergraph1}所示，在房产证上张三与李四共同拥有三套房，在超图中就只需一条超边（拥有）就能表示出来。 但现实中，仅仅一条超边来表示拥有关系，可能会隐藏很多细节，例如房产证中每套房张三、李四各自占有的比率，因此，如果用属性图来表示将更为丰富，只是将一条超边转化, 为6条属性图中的关系，如\cref{fig:hypergraph2}所示。超图模型的优点是能够更加方便地表示多对多的关系, 适合描述复杂的群体交互场景；但其实现复杂度较高, 查询操作也可能比其他图模型更加复杂, 导致查询效率受到影响.
+\textbf{超图模型:} 超图是节点与一组节点之间关系的扩展, 适用于表示复杂多方关系的场景. 例如, 如\cref{fig:hypergraph1}所示，在房产证上张三与李四共同拥有三套房，在超图中就只需一条超边（拥有）就能表示出来。 但现实中，仅仅一条超边来表示拥有关系，可能会隐藏很多细节，例如房产证中每套房张三、李四各自占有的比率，因此，如果用属性图来表示将更为丰富，只是将一条超边转化, 为6条属性图中的关系，如\cref{fig:hypergraph2}所示。 超图模型的优点是能够更加方便地表示多对多的关系, 适合描述复杂的群体交互场景；但其实现复杂度较高, 查询操作也可能比其他图模型更加复杂, 导致查询效率受到影响.
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{images/16.png}
+		\caption{超图模型示例1}
 		\label{fig:hypergraph1}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{images/17.png}
+		\caption{超图模型示例2}
 		\label{fig:hypergraph2}
 	\end{subfigure}
 	\caption{超图模型}
