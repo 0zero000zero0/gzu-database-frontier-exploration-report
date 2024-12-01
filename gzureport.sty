@@ -11,6 +11,10 @@
 %%原作者: Percy
 %%Github: https://github.com/haochengxia/zjureport
 %%Overleaf: https://www.overleaf.com/latex/templates/ZJUke-cheng-lun-wen-mo-ban/bcwvxncqffkw
+%%页眉设置
+
+
+
 \ProvidesPackage{gzureport}
 
 % 字符编码和语言设置
@@ -76,6 +80,37 @@
 \RequirePackage{fontawesome} % 使用 FontAwesome 字体图标
 
 \RequirePackage{placeins} % 加载用于清理浮动内容的宏包
+
+
+
+\pagestyle{fancy}
+\fancyhead[L]{\fangsong 贵州大学}%%留空则不显示
+\fancyhead[C]{\fangsong 图数据库报告}%%留空则不显示
+\fancyhead[R]{\fangsong 计科创新班2201}%%留空则不显示
+
+%封面页设置
+{
+    \title{
+        \vspace{2cm}
+        \heiti \Huge \textbf{{图数据库}}
+        \par
+        %
+        % \heiti \Large {\underline{副标题}}
+        \vspace{3cm}
+    }%标题
+    \author{
+        \vspace{0.5cm}
+        \kaishu\Large 姓名\ \dlmu[9cm]{张丁文,朱圣熠,陈宇} \qquad \\ %姓名
+        \vspace{0.5cm}
+        \kaishu\Large  学号\ \dlmu[9cm]{2200170271,2200170259,2200170176} \qquad  \\ %学号
+        \vspace{0.5cm}
+        \kaishu\Large  教师\ \dlmu[9cm]{马丹} \qquad  \\ %教师
+        \vspace{0.5cm}
+        \kaishu\Large   院所\ \dlmu[9cm]{计算机科学与技术学院} %院所
+    }
+
+    \date{\today} % 默认为今天的日期，可以注释掉不显示日期
+}
 
 
 \lstset{
@@ -184,35 +219,6 @@
     \end{center}
 }
 
-%%页眉设置
-\pagestyle{fancy}
-\fancyhead[L]{\fangsong 贵州大学}%%留空则不显示
-\fancyhead[C]{\fangsong 图数据库报告}%%留空则不显示
-\fancyhead[R]{\fangsong 张丁文}%%留空则不显示
-
-%封面页设置
-{
-    \title{
-        \vspace{2cm}
-        \heiti \Huge \textbf{{图数据库}}
-        \par
-        %
-        % \heiti \Large {\underline{副标题}}
-        \vspace{3cm}
-        }%标题
-    \author{
-        \vspace{0.5cm}
-        \kaishu\Large 姓名\ \dlmu[9cm]{张丁文,朱圣熠,陈宇} \qquad \\ %姓名
-        \vspace{0.5cm}
-        \kaishu\Large  学号\ \dlmu[9cm]{2200170271,,2200170176} \qquad  \\ %学号
-        \vspace{0.5cm}
-        \kaishu\Large  教师\ \dlmu[9cm]{马丹} \qquad  \\ %教师
-        \vspace{0.5cm}
-        \kaishu\Large   院所\ \dlmu[9cm]{计算机科学与技术学院} %院所
-    }
-
-    \date{\today} % 默认为今天的日期，可以注释掉不显示日期
-}
 
 %%在这里可更改封面logo
 \newcommand{\cover}{
